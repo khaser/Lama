@@ -34,7 +34,7 @@
     stdpath2.ml
     (progn
      (run echo let path = "\"")
-     (run opam var share)
+     ; (run opam var share)
      (run echo /Lama)
      (run echo "\"")))
    (with-stdout-to

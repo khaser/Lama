@@ -6,3 +6,7 @@
 .merlin
 
 .vscode
+
+.direnv
+.envrc
+_build

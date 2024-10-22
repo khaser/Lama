@@ -25,10 +25,6 @@ build: [
 ]
 install: [make "install"]
 
-depexts: [
-  ["gcc-multilib"] {os-family = "debian"}
-]
-
 dev-repo: "git+https://github.com/PLTools/Lama.git"
 url {
   src: "git+https://github.com/PLTools/Lama.git#1.20"
